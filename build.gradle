@@ -16,6 +16,12 @@ ext {
     set('springCloudVersion', "2020.0.3")
 }
 
+bootJar {
+    archiveBaseName = 'pbeureka'
+    archiveFileName = 'pbeureka.jar'
+    archiveVersion = "1.0.0"
+}
+
 dependencies {
     implementation 'org.springframework.cloud:spring-cloud-starter'
     implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-server'
