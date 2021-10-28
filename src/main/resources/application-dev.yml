@@ -1,0 +1,4 @@
+#Setting logging levels
+logging:
+  file:
+    path: /usr/local/pbeureka/logs
