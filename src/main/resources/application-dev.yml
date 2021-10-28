@@ -1,11 +1,11 @@
 eureka:
   client:
-    register-with-eureka: false
-    fetch-registry: false
-    service-url:
-      default-zone : http://58.149.234.98:5003
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone : http://58.149.234.98:5003/eureka
   server:
-    wait-time-in-ms-when-sync-empty: 5
+    registry-sync-retry-wait-ms: 5
 
 #Setting logging levels
 logging:
