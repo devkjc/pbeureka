@@ -10,6 +10,10 @@ eureka:
   server:
     registry-sync-retry-wait-ms: 5
 
+spring:
+  application:
+    name: pbeureka
+
 #Setting logging levels
 #logging:
 #  file:
